@@ -9,8 +9,8 @@ def rot_flop(filename):
 
 
 #training
-#os.chdir(PATH)
-#os.system('python deep_photostyle.py --content_image_path ./examples/input/pre_color_context.jpg --style_image_path ./examples/style/pre_result.jpg --content_seg_path ./examples/segmentation/pre_color_context_mask.png --style_seg_path ./examples/segmentation/pre_color_context_mask.png --style_option 2')
+os.chdir(PATH)
+os.system('python deep_photostyle.py --content_image_path ./examples/input/pre_color_context.jpg --style_image_path ./examples/style/pre_result.jpg --content_seg_path ./examples/segmentation/pre_color_context_mask.png --style_seg_path ./examples/segmentation/pre_color_context_mask.png --style_option 2')
 
 
 #Clipping
