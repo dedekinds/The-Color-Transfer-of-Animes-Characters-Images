@@ -4,7 +4,7 @@ The final project of Advance Machine Learning course in Tsinghua University. Two
 and Northwestern University, U.S.. 
 
 ## Disclaimer
-**This code is published for academic and non-commercial use only.**
+*MIT license*
 
 ## Setup
 ### Dependencies
