@@ -64,13 +64,18 @@ python pre_color_model.py
 ```
 in your Terminal and get our enhancement result.
 
-Here are some enhancement result and comparision between our 
-## Result
-![image](https://github.com/dedekinds/havefun/blob/master/image/tkl.png)
 
+## Result
+Here are illustration of our work and performance comparision between our work and the baseline model:
+
+![image](https://github.com/dedekinds/havefun/blob/master/image/tkl.png)
+As the picture shown above, with our pre-coloring enhancement, the picture is becoming much more clear when the iteration size is increasing. 
 ![image](https://github.com/dedekinds/havefun/blob/master/image/db.png)
 
+Here is the comparsion with and without our pre-coloring enhancement before color transfer. Although the result of Luan's CVPR17 paper is incredible in high quality and larger pixel picture's color and style transfer, our enhancement are much better when you are using low quality and smaller pixel images in content and/or style section.
+
 ![image](https://github.com/dedekinds/havefun/blob/master/image/lymgif.gif)
+
 ![image](https://github.com/dedekinds/havefun/blob/master/image/rapidash.gif)
 
 ![image](https://github.com/dedekinds/havefun/blob/master/image/yb.png)
