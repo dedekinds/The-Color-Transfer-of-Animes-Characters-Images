@@ -1,7 +1,7 @@
 # Quality Enhancement of Color Transfer of Low Quality Pictures：Pokémon Fusion Example
 
 The final project of Advance Machine Learning course in Tsinghua University. Two contributors come from Tsinghua University
-[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S. [@wuyujack](https://github.com/wuyujack). This project aims to improve the images' quality after color transfering in low quality pictures. You can refer to the `Data` section to learn more about our test images.
+[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S. [@wuyujack](https://github.com/wuyujack). This project aims to improve the images' quality after color transferring in low quality pictures. You can refer to the `Data` section to learn more about our test images.
 
 ## License
 *MIT license*
@@ -31,11 +31,11 @@ First you need to install the ImageMagick, you can type
 ```
 sudo apt-get install ImageMagick
 ```
-in Linux Terminal. This software is used to extracts the alpha channel from the PNG images (your content and style images). The covert code is already include in the `base_model.py` file.
+in Linux Terminal. This software is used to extracts the alpha channel from the PNG images (your content and style images). The covert code is already included in the `base_model.py` file.
 
 ## Usage
 ### Baseline Model 
-Then you can type
+To generate the result of baseline model, you can type
 ```
 python base_model.py
 ```
