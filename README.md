@@ -1,7 +1,7 @@
 # Quality Enhancement of Color Transfer of Low Quality Pictures：Pokémon Fusion Example
 
 The final project of Advance Machine Learning course in Tsinghua University. Two contributors come from Tsinghua University
-[@dedekinds](https://github.com/dedekinds)and Northwestern University, U.S.[@wuyujack](https://github.com/wuyujack). 
+[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S.[@wuyujack](https://github.com/wuyujack). 
 
 ## License
 *MIT license*
@@ -62,6 +62,17 @@ python pre_color_model.py
 ```
 in your Terminal and get our enhancement result.
 
+## Result
+![image](https://github.com/dedekinds/havefun/blob/master/image/tkl.png)
+
+![image](https://github.com/dedekinds/havefun/blob/master/image/db.png)
+
+![image](https://github.com/dedekinds/havefun/blob/master/image/lymgif.gif)
+![image](https://github.com/dedekinds/havefun/blob/master/image/rapidash.gif)
+
+![image](https://github.com/dedekinds/havefun/blob/master/image/yb.png)
+
+![image](https://github.com/dedekinds/havefun/blob/master/image/tkllogo.png)
 ## Acknowledgement
 
 * The baseline style transfer model implementation of our project is totally based on the [LouieYang's](https://github.com/LouieYang/deep-photo-styletransfer-tf) deep-photo-styletransfer-tf project. The style transfer 
