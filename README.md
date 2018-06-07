@@ -1,7 +1,7 @@
 # Quality Enhancement of Color Transfer of Low Quality Pictures：Pokémon Fusion Example
 
 The final project of Advance Machine Learning course in Tsinghua University. Two contributors come from Tsinghua University
-and Northwestern University, U.S.. 
+[@dedekinds](https://github.com/dedekinds)and Northwestern University, U.S.[@wuyujack](https://github.com/wuyujack). 
 
 ## License
 *MIT license*
@@ -18,6 +18,14 @@ and Northwestern University, U.S..
 ### Download the VGG-19 model weights
 The VGG-19 model of tensorflow is adopted from [VGG Tensorflow](https://github.com/machrisaa/tensorflow-vgg) with few modifications on the class interface. The VGG-19 model weights is stored as .npy file and could be download from [Google Drive](https://drive.google.com/file/d/0BxvKyd83BJjYY01PYi1XQjB5R0E/view?usp=sharing) or [BaiduYun Pan](https://pan.baidu.com/s/1o9weflK). After downloading, copy the weight file to the **./project/vgg19** directory
 
+
+## Data
+You can make a easy Web crawler to get the data in following websites: 
+1. http://pokefusion.japeal.com/
+2. https://wiki.52poke.com
+
+The part of data could be download from [!!!百度云盘坐等上传]
+
 ## Install ImageMagick
 First you need to install the ImageMagick, you can type 
 ```
@@ -25,7 +33,8 @@ sudo apt-get install ImageMagick
 ```
 in Linux Terminal. This software is used to extracts the alpha channel from the PNG images (your content and style images). The covert code is already include in the `base_model.py` file.
 
-## Baseline Model 
+## Usage
+### Baseline Model 
 Then you can type
 ```
 python base_model.py
@@ -36,7 +45,7 @@ in the Terminal and generate the deep-photo-style model's result, which is the b
 
 If you want to modify the iteration size, you can change the parameter `—save_iter` in `deep_photostyle.py`. You can also modify the `Weight Options` parameter to change the weight of different loss.
 
-## Our work:Pre-coloring model
+### Our work:Pre-coloring model
 In order to improve the worse performance in color transfer when you use low quality content picture or/and style picture in the baseline model, we propose an enhancement method: the Pre-coloring model. Here is the usage:
 
 You can type 
