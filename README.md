@@ -1,7 +1,7 @@
 # Quality Enhancement of Color Transfer of Low Quality Pictures：Pokémon Fusion Example
 
 The final project of Advance Machine Learning course in Tsinghua University. Two contributors come from Tsinghua University
-[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S.[@wuyujack](https://github.com/wuyujack). 
+[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S. [@wuyujack](https://github.com/wuyujack). This project aims to improve the images' quality after color transfering in low quality pictures. Here are some example about low quality images.
 
 ## License
 *MIT license*
@@ -20,11 +20,11 @@ The VGG-19 model of tensorflow is adopted from [VGG Tensorflow](https://github.c
 
 
 ## Data
-You can make a easy Web crawler to get the data in following websites: 
+You can make a easy Web crawler to get the orginal low quality Pokémon dataset without fusion in following websites: 
 1. http://pokefusion.japeal.com/
 2. https://wiki.52poke.com
 
-The part of data could be download from [!!!百度云盘坐等上传]
+We also provide the whole [Pokémon Fusion Dataset](https://pan.baidu.com/s/16MHDxSUzexAKax46zhb0GQ). The`GEN` in the 
 
 ## Install ImageMagick
 First you need to install the ImageMagick, you can type 
@@ -45,7 +45,7 @@ in the Terminal and generate the deep-photo-style model's result, which is the b
 
 If you want to modify the iteration size, you can change the parameter `—save_iter` in `deep_photostyle.py`. You can also modify the `Weight Options` parameter to change the weight of different loss.
 
-### Our work:Pre-coloring model
+### Our work: Pre-coloring model
 In order to improve the worse performance in color transfer when you use low quality content picture or/and style picture in the baseline model, we propose an enhancement method: the Pre-coloring model. Here is the usage:
 
 You can type 
@@ -79,3 +79,5 @@ in your Terminal and get our enhancement result.
 model implemented in [Yang's](https://github.com/LouieYang/deep-photo-styletransfer-tf) project is based on the paper "Deep Photo Style Transfer": https://arxiv.org/abs/1703.07511. You can also refer to this paper's author, [Fujun Luan's](https://github.com/luanfujun/deep-photo-styletransfer) github to learn more about the original implementation of the paper.
 
 
+## Contact 
+Please feel free to contact us if there are any problems: Mingfu Liang(mingfuliang2020@u.northwestern.edu)
