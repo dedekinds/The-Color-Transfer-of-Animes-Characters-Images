@@ -72,18 +72,20 @@ Here are illustration of our work and performance comparision between our work a
 As the picture shown above, with our pre-coloring enhancement, the picture is becoming much more clear when the iteration size is increasing. 
 ![image](https://github.com/dedekinds/havefun/blob/master/image/db.png)
 
-Here is the comparsion with and without our pre-coloring enhancement before color transfer. Although the result of Luan's CVPR17 paper is incredible in high quality and larger pixel picture's color and style transfer, our enhancement are much better when you are using low quality and smaller pixel images in content and/or style section.
+Here is the comparsion with and without our pre-coloring enhancement before color transfer shown above. Although the result of Luan's CVPR17 paper is incredible in high quality and larger pixel picture's color and style transfer, our enhancement are much better when you are using low quality and smaller pixel images in content and/or style section.
+
+We also present the performance of our works when you want to conduct color transfer in a dynamic feature, such as gif, shown as following. On the left is our result with pre-coloring and the gif on the right is the orginal gif.
 
 ![image](https://github.com/dedekinds/havefun/blob/master/image/lymgif.gif)
-
 ![image](https://github.com/dedekinds/havefun/blob/master/image/rapidash.gif)
 
+Here are some funny results after pre-coloring enhancement, just have fun :)
 ![image](https://github.com/dedekinds/havefun/blob/master/image/yb.png)
 
 ![image](https://github.com/dedekinds/havefun/blob/master/image/tkllogo.png)
 ## Acknowledgement
 
-* The baseline style transfer model implementation of our project is totally based on the [LouieYang's](https://github.com/LouieYang/deep-photo-styletransfer-tf) deep-photo-styletransfer-tf project. The style transfer 
+* The baseline style transfer model implementation and the VGG-19 model weights of our project is totally based on the [LouieYang's](https://github.com/LouieYang/deep-photo-styletransfer-tf) deep-photo-styletransfer-tf project. The style transfer 
 model implemented in [Yang's](https://github.com/LouieYang/deep-photo-styletransfer-tf) project is based on the paper "Deep Photo Style Transfer": https://arxiv.org/abs/1703.07511. You can also refer to this paper's author, [Fujun Luan's](https://github.com/luanfujun/deep-photo-styletransfer) github to learn more about the original implementation of the paper.
 
 
