@@ -54,6 +54,8 @@ python get_pre_coloring.py
 ```
 in the Terminal and find the pre_result.jpg in `/examples/style`. If you think the result image does not satisfy your requirement, you can rerun again the same command until you get a good enough pre-coloring result. Since in most cases, the K-means Algorithm can not converge, so each time when you run the command above, you will get different pre-coloring result, that's the beauty of art generation :)
 
+![image](https://github.com/dedekinds/havefun/blob/master/image/yrs.jpg)
+
 You can also modify the `n_clusters` parameter in `get_pre_coloring.py` and this parameter will change the size of color cluster in your content and style image in pre-color procedure and finally change our pre-coloring result.
 
 When you complete the pre-coloring step, you can consequently type 
@@ -80,4 +82,4 @@ model implemented in [Yang's](https://github.com/LouieYang/deep-photo-styletrans
 
 
 ## Contact 
-Please feel free to contact us if there are any problems: Mingfu Liang(mingfuliang2020@u.northwestern.edu)
+Please feel free to contact us if there are any problems: Mingfu Liang(mingfuliang2020@u.northwestern.edu) or Zhongzhan Huang(zhongzhanhuang@foxmail.com)
