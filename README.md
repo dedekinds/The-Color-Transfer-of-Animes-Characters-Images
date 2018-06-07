@@ -1,7 +1,7 @@
 # Quality Enhancement of Color Transfer of Low Quality Pictures：Pokémon Fusion Example
 
 The final project of Advance Machine Learning course in Tsinghua University. Two contributors come from Tsinghua University
-[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S. [@wuyujack](https://github.com/wuyujack). This project aims to improve the images' quality after color transfering in low quality pictures. Here are some example about low quality images.
+[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S. [@wuyujack](https://github.com/wuyujack). This project aims to improve the images' quality after color transfering in low quality pictures. You can refer to the `Data` section to learn more about our test images.
 
 ## License
 *MIT license*
@@ -24,7 +24,7 @@ You can make a easy Web crawler to get the orginal low quality Pokémon dataset 
 1. http://pokefusion.japeal.com/
 2. https://wiki.52poke.com
 
-We also provide the whole [Pokémon Fusion Dataset](https://pan.baidu.com/s/16MHDxSUzexAKax46zhb0GQ). The`GEN` in the 
+We also provide the GEN1 to GEN4 [Pokémon Fusion Dataset](https://pan.baidu.com/s/16MHDxSUzexAKax46zhb0GQ). The`GEN` here is the abbreviation of generation of Pokémon. Actually GEN5 is already existed in http://pokefusion.japeal.com/ but we did not crawl down the Pokémon of this generation.
 
 ## Install ImageMagick
 First you need to install the ImageMagick, you can type 
@@ -52,7 +52,7 @@ You can type
 ```
 python get_pre_coloring.py
 ```
-in the Terminal and find the pre_result.jpg in `/examples/style`. If you think the result image does not satisfy your requirement, you can rerun again the same command until you get a good enough pre-coloring result. Since in most cases, the K-means Algorithm can not converge, so each time when you run the command above, you will get different pre-coloring result, that's the beauty of art generation :)
+in the Terminal and find the pre_result.jpg in `/examples/style`. If you think the result image does not satisfy your requirement, you can rerun again the same command until you get a good enough pre-coloring result. Since in most cases, the K-means Algorithm can not converge, so each time when you run the command above, you will get different pre-coloring result, that's the beauty of art generation :) We present some interesting results of different pre-coloring when you use different style picture. The picture on the left-most is the orginal picture.
 
 ![image](https://github.com/dedekinds/havefun/blob/master/image/yrs.jpg)
 
@@ -64,6 +64,7 @@ python pre_color_model.py
 ```
 in your Terminal and get our enhancement result.
 
+Here are some enhancement result and comparision between our 
 ## Result
 ![image](https://github.com/dedekinds/havefun/blob/master/image/tkl.png)
 
