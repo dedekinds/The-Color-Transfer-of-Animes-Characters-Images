@@ -1,7 +1,7 @@
 # The Color Transfer of Animes Characters' Images：Pokémon Fusion Example
 
 The final project of Advance Machine Learning course in Tsinghua University. Two contributors come from Tsinghua University
-[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S. [@wuyujack](https://github.com/wuyujack). This project aims to improve the images' quality after color transferring in low quality pictures. You can refer to the `Data` section to learn more about our test images.
+[@dedekinds](https://github.com/dedekinds) and Northwestern University, U.S. [@wuyujack](https://wuyujack.github.io/). This project aims to improve the images' quality after color transferring in low quality pictures. You can refer to the `Data` section to learn more about our test images.
 
 ## License
 *MIT license*
